@@ -1,0 +1,140 @@
+.weather-container {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 2% auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+    background-color: rgba(0, 0, 0, 0.25); /* Background color for the container */
+    padding: 20px; 
+    border-radius: 10px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    color: white;
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    width: 800px;
+    overflow: hidden;
+    height: auto; /* Adjust height based on content */
+}
+
+  .weather-form {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .weather-input {
+    padding: 8px;
+    width: calc(100% - 20px);
+    max-width: 300px;
+    background-color: #333;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    transition: background-color 0.3s ease;
+    margin-bottom: 10px; /* Add some margin at the bottom to separate from other elements */
+  }
+  
+  .weather-input:hover {
+    background-color: #444;
+  }
+  
+  .weather-box-container {
+    background-color: rgba(0, 0, 0, 0.25); /* Background color for the weather boxes */
+    padding: 20px; 
+    border-radius: 10px; 
+    color: white;
+  }
+  
+  .weather-info {
+    padding: 10px;
+    overflow: hidden; /* Hide overflow content */
+    text-overflow: ellipsis; /* Display ellipsis (...) for overflow text */
+    white-space: nowrap; /* Prevent wrapping of text */
+    font-size: 14px; /* Adjust font size */
+    line-height: 1.2; /* Adjust line height */
+    display: flex; /* Use flexbox */
+    flex-direction: column; /* Arrange items vertically */
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center items vertically */
+  }
+  
+  .weather-info p {
+    margin-bottom: 5px;
+  }
+  
+  .weather-info img {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+  }
+  
+  .weather-image {
+    width: 90px;
+    margin: 0 auto;
+  }
+  
+  .weather-image-main {
+    width: 100px;
+    margin: 0 auto;
+  }
+
+
+
+  .mostVisible {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px auto; /* Center the paragraph horizontally and add margin for spacing */
+    text-align: center; /* Center the text within the paragraph */
+    color: #fff; /* Example color */
+  }
+  
+
+
+
+/* Moon data styling */
+.moon-data {
+    background-color: rgba(0, 0, 0, 0.25); /* Background color for moon data */
+    padding: 20px; 
+    border-radius: 10px; 
+    color: white;
+    margin-bottom: 20px; /* Add margin at the bottom */
+    text-align: center; /* Center the moon data */
+}
+
+.moon-data p {
+    margin-bottom: 10px; /* Add margin between paragraphs */
+    font-size: 16px; /* Adjust font size */
+    display: inline-block; /* Display paragraphs as inline-block */
+    margin-right: 20px; /* Add some space between paragraphs */
+}
+
+/* Size adjustments for moon data images */
+.moon-data img {
+    width: 50px; /* Adjust width of moon data images */
+    height: auto; /* Maintain aspect ratio */
+    vertical-align: middle; /* Align images vertically in the middle */
+    filter: brightness(0) invert(1); /* Make the image white */
+}
+
+
+.star-gazing-info {
+    padding: 10px;
+    font-size: 16px; /* Adjust font size */
+    text-align: center; /* Center align text */
+    margin-top: 20px; /* Add some top margin for separation */
+    color: #ffffff; /* Text color */
+    background-color: rgba(0, 0, 0, 0.25); /* Background color */
+    border-radius: 5px; /* Add some border radius for a rounded look */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  .star-gazing-duration {
+    margin-top: 10px; /* Add margin top for separation */
+    font-size: 14px; /* Adjust font size */
+    color: #666; /* Adjust color */
+  }
+  
+  

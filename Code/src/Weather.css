@@ -1,0 +1,108 @@
+/* Weather.css */
+
+.weather-container {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  width: 600px; /* Fixed width */
+  height: 500px; /* Fixed height */
+  margin: 2% auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 20px;
+  background-color: rgba(0, 0, 0, 0.25); /* Background color for the container */
+  padding: 20px; 
+  border-radius: 10px; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  color: white;
+  overflow: hidden; /* Hide overflow content */
+  display: flex;
+  flex-direction: column; /* Stack elements vertically */
+}
+
+.weather-form {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.weather-input {
+  padding: 8px;
+  width: calc(100% - 20px);
+  max-width: 300px;
+  background-color: #333;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  transition: background-color 0.3s ease;
+  margin-bottom: 10px; /* Add some margin at the bottom to separate from other elements */
+}
+
+.weather-input:hover {
+  background-color: #444;
+}
+
+.weather-box-container {
+  background-color: rgba(0, 0, 0, 0.25); /* Background color for the weather boxes */
+  padding: 20px; 
+  border-radius: 10px; 
+  color: white;
+}
+
+.weather-info {
+  padding: 10px;
+  overflow: hidden; /* Hide overflow content */
+  text-overflow: ellipsis; /* Display ellipsis (...) for overflow text */
+  white-space: nowrap; /* Prevent wrapping of text */
+  font-size: 20px; /* Adjust font size for temperature */
+  line-height: 1.2; /* Adjust line height */
+  display: flex; /* Use flexbox */
+  flex-direction: column; /* Arrange items vertically */
+  align-items: center; /* Center items horizontally */
+  justify-content: center; /* Center items vertically */
+  text-align: center;
+}
+
+.weather-info p {
+  margin-bottom: 5px;
+}
+
+.weather-info img {
+  display: block;
+  margin: 0 auto;
+}
+
+.weather-image {
+  width: 90px;
+  margin: 0 auto;
+}
+
+.weather-image-main {
+  width: 100px;
+  margin: 0 auto;
+}
+
+/* Weather.css */
+
+.info-btn {
+  background-color: #43494f; /* Blue color */
+  color: white; /* Text color */
+  border: none; /* Remove border */
+  border-radius: 20px; /* Rounded corners */
+  padding: 10px 20px; /* Padding */
+  cursor: pointer; /* Cursor style */
+  transition: background-color 0.3s ease; /* Smooth transition */
+  margin-top: 30px;
+}
+
+.info-btn:hover {
+  background-color: #0056b3; /* Darker blue color on hover */
+}
+
+/* Apply style to Link component */
+.info-btn > a {
+  text-decoration: none; /* Remove underline */
+  color: inherit; /* Inherit text color */
+}
+
+

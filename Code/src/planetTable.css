@@ -1,0 +1,54 @@
+body,html {
+    color: white;
+}
+
+.container {
+    max-width: 800px; /* Adjust this value to your preference */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 20px;
+    text-align: center; /* Center the content horizontally */
+}
+
+table {
+    width: 70%; /* Make the table fill the container */
+    border-collapse: collapse;
+    margin: 0 auto; /* Center the table horizontally */
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #444;
+}
+
+tr:hover {
+    background-color: #333;
+}
+
+h2{ 
+    text-align: center;
+}
+
+/* Add this CSS to your existing stylesheet */
+
+.mostVisible {
+    font-size: 10px; /* Adjust font size to your preference */
+    font-weight: lighter; /* Make text bold */
+    margin: 20px auto; /* Center the paragraph horizontally and add margin for spacing */
+    text-align: center; /* Center the text within the paragraph */
+    color: white; /* Text color */
+    background-color: #3d0808; /* Background color */
+    padding: 10px 20px; /* Padding for the box */
+    border-radius: 5px; /* Rounded corners for the box */
+    width: 500px;
+}
+
+.h2table {
+   
+}
+

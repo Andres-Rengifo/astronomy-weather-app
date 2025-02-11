@@ -1,0 +1,32 @@
+/* weatherForecast.css */
+
+.weather-container-2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 800px; /* Fixed width */
+    margin: 2% auto;
+    display: grid; /* Use CSS grid */
+    grid-template-columns: 1fr; /* Single column layout */
+    grid-gap: 20px; /* Increased gap between grid items */
+    background-color: rgba(0, 0, 0, 0.25);
+    padding: 30px; /* Increased padding */
+    border-radius: 20px; /* Increased border radius */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Adjusted box shadow */
+    color: white;
+}
+
+.weather-box {
+    padding: 20px; /* Increased padding */
+    background-color: rgba(0, 0, 0, 0.25); /* Adjusted background color */
+    border-radius: 20px; /* Rounded corners for the text box */
+    color: white;
+    font-family: 'Arial', sans-serif; /* Change font family */
+    font-weight: bold; /* Make the text thicker */
+    font-size: 18px; /* Increased font size */
+    line-height: 1.5; /* Adjusted line height */
+}
+
+.weather-box img {
+    width: 80px; /* Adjusted width of the weather icon */
+    height: 70px; /* Adjusted height of the weather icon */
+    margin-right: 10px; /* Added margin to the right of the weather icon */
+}
